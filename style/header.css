@@ -104,7 +104,7 @@ a {
 .hover-underline-animation {
 	display: inline-block;
 	position: relative;
-	color: #0087ca;
+	color: #dc3545;
   }
   .hover-underline-animation::after {
 	content: '';
@@ -114,7 +114,7 @@ a {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #0087ca;
+	background-color: #dc3545;
 	transform-origin: bottom right;
 	transition: transform 0.25s ease-out;
   }
