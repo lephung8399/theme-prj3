@@ -10,7 +10,12 @@
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/main.css">
-    <title>Hello, world!</title>
+    <link rel="icon" type="image/png" href="image/Ecko_Unltd-logo-5A7FE2931C-seeklogo.com.png"/>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
+    <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <title>Ecko Unltd</title>
    
   </head>
   <body>
@@ -111,14 +116,91 @@
         </div>
     </div>
     <div class="main">
-      <div class="main-banner">
+      <div class="main-banner" style="width: 100%;">
         <span class="mainBanner__link__content">
               <h1 style="font-size: 70px; color: #ffffff;"><a href="#" style="text-decoration: none; color: #ffffff;">Your day, Sorted</a></h1>
               <br>
               <button type="button" class="btn btn-light" style="letter-spacing: 4px; font-size: 12px;">SHOP THE RANGE</button>
         </span>
       </div>
+      <div class="slider">
+        <div class="slider-tittle">
+          <p>DISCOVER OUR BESTSELLERS</p>
+        </div>
+        <div class="slider-product">
+          <div class="container slider-items">
+            <div class="owl-carousel">
+              <!-- <div class="row"> -->
+                <div class="div-items">
+                  <div class="img-item" style="position: relative;">
+                    <img src="image/0.jpeg" alt="" style="width: 100%; height: max-height;">
+                    <div class="overlay">
+                      <div class="text">
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <b><p style="text-align: center;">
+                    Phone case - 3 Card <br>
+                    89$
+                  </p></b>
+                </div>
+                <div class="div-items">
+                  <div class="img-item">
+                    <img src="image/1.jpeg" alt="" style="width: 100%; height: max-height%;">
+                  </div>
+                  <b><p style="text-align: center;">
+                    Phone case - 3 Card <br>
+                    89$
+                  </p></b>
+                </div>
+                <div class="div-items">
+                  <div class="img-item">
+                    <img src="image/2.jpeg" alt="" style="width: 100%; height: max-height%;">
+                  </div>
+                  <b><p style="text-align: center;">
+                    Phone case - 3 Card <br>
+                    89$
+                  </p></b>
+                </div>
+                
+                <!-- <div class="col-4 div-items">
+                  <div class="img-item">
+                    <img src="image/1.jpeg" alt="" style="width: 100%; height: max-height%;">
+                  </div>
+                  <b><p style="text-align: center;">
+                    Phone case - 3 Card <br>
+                    89$
+                  </p></b>
+                </div> -->
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <script>
+      $(document).ready(function(){
+			  $(".owl-carousel").owlCarousel();
+			});
+      var owl = $('.owl-carousel');
+          owl.owlCarousel({
+              items:3,
+              loop:true,
+              margin:10,
+              nav:true,
+              autoplay:true,
+              autoplayTimeout:3000,
+              autoplayHoverPause:true
+          });
+          $('.play').on('click',function(){
+              owl.trigger('play.owl.autoplay',[1000])
+          })
+          $('.stop').on('click',function(){
+              owl.trigger('stop.owl.autoplay')
+          })
+    </script>
     <div class="footer">
       <div class="footer-content">
         <div class="footer-content-emailadd">
@@ -134,7 +216,7 @@
         </div>
 
         <div class="footer-content-down">
-          <div class="container-fluid">
+          <div class="container-fluid" style="width: 100%;">
             <div class="row" style="padding-top: 80px;">
               <div class="col-3">
                 <a href="#"><img src="image/logo.png" alt=""></a>
