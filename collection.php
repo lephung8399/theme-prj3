@@ -1,6 +1,6 @@
 <?php include("header.html") ?>
 
-<div class="main-banner" style="width: 100%;">
+<div class="main-banner-collection" style="width: 100%;">
         <span class="mainBanner__link__content">
               <!-- <h1 style="font-size: 70px; color: #ffffff;"><a href="#" style="text-decoration: none; font-family: auto;color: #ffffff;">Your day, Sorted</a></h1> -->
               <br>
