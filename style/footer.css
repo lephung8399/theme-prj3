@@ -4,6 +4,10 @@
     background: url(../image/footer_desktop_pattern1.png) no-repeat center;
     background-size: 100%;
     position: relative;
+    /* cho box ra giữa */
+    display: grid;
+    justify-items: center; /* Căn giữa chiều ngang */
+    align-content: center;/* Căn giữa chiều dọc */
    
 }
 .footer-content{
@@ -11,7 +15,6 @@
     height: 552px;
     /* background-color: aqua; */
     margin-top: 60px;
-    margin-left: 171px;
     position: absolute;
     /* text-align: center; */
 }
