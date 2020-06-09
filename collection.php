@@ -21,10 +21,10 @@
             </div>
             <div class="collection-color-item"></div>
             <div class="collection-product-price">
-                <span><b>Note Sleeve</b>
-                    <br> <b>89$</b>
-                    <br> 4 - 11+ card, flat bills, coins
-                </span>
+                <span class="price">Note Sleeve</span><br>
+                <span class="price">89$</span><br>
+                <span class="price">4 - 11+ card, flat bills, coins</span><br>
+                    
             </div>
         </div>
         
@@ -34,10 +34,10 @@
             </div>
             <div class="collection-color-item"></div>
             <div class="collection-product-price">
-                <span><b>Note Sleeve</b>
-                    <br> <b>89$</b>
-                    <br> 4 - 11+ card, flat bills, coins
-                </span>
+                <span class="price">Note Sleeve</span><br>
+                <span class="price">89$</span><br>
+                <span class="price">4 - 11+ card, flat bills, coins</span><br>
+                    
             </div>
         </div>
 
@@ -47,10 +47,10 @@
             </div>
             <div class="collection-color-item"></div>
             <div class="collection-product-price">
-                <span><b>Note Sleeve</b>
-                    <br> <b>89$</b>
-                    <br> 4 - 11+ card, flat bills, coins
-                </span>
+                <span class="price">Note Sleeve</span><br>
+                <span class="price">89$</span><br>
+                <span class="price">4 - 11+ card, flat bills, coins</span><br>
+                    
             </div>
         </div>
 
@@ -60,10 +60,10 @@
             </div>
             <div class="collection-color-item"></div>
             <div class="collection-product-price">
-                <span><b>Note Sleeve</b>
-                    <br> <b>89$</b>
-                    <br> 4 - 11+ card, flat bills, coins
-                </span>
+                <span class="price">Note Sleeve</span><br>
+                <span class="price">89$</span><br>
+                <span class="price">4 - 11+ card, flat bills, coins</span><br>
+                    
             </div>
         </div>
     </div>

@@ -54,3 +54,7 @@
     width: 100%;
     background-color: #f8f8f8;
 }
+.price{
+    padding-left: 30px;
+    font-weight: 700;
+}
