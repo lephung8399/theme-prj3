@@ -67,6 +67,7 @@
                             </div>                                    
                         </div>
                     </div>
+                    
                     <div class="col-4 product-selector">
                         <h1 style="line-height: 27px; color: grey; font-size: 24px">
                             Name Product
